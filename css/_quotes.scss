@@ -1,0 +1,32 @@
+.quotes{
+    .divider{
+        width: 100%;
+        background: #fafafa;
+    }
+    background: #FAFAFA;
+    .quotesBtn{
+        background: #20484F;
+        color: #fff;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .box{
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        transition: .3s ease-in-out;
+        img{
+            margin-bottom: 20px;
+        }
+        span{
+            font-size: 12px;
+        }
+        h6{
+            padding-top: 30px;
+        }
+        &:hover{
+            box-shadow: #20484F 0 10px 10px 0;
+        }
+    }
+}

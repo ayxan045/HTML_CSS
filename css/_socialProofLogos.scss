@@ -1,0 +1,12 @@
+.socialProofLogos{
+    img{
+        width: 30%;
+        margin-left: 7em;
+        margin-top: 20px;
+        transition: .3s ease-in-out;
+        border-radius: 10px;
+        &:hover{
+            box-shadow: #20484f 0 5px 5px 0;
+        }
+    }
+}
