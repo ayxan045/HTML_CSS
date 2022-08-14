@@ -15,4 +15,19 @@ window.onscroll=function(){
     }
 }
 
-
+//scrollTop***********
+$(window).on("scroll",function(){
+    if($(window).scrollTop()>50){
+        $(".isShowBtn").addClass("bottom-active")
+    }
+    else {
+        $(".isShowBtn").addClass("bottom-active2")
+    }
+}) 
+$(".isShowBtn").click(function(){
+    toTop();
+})
+function toTop(){
+    document.body.scrollTop=0;
+    document.documentElement.scrollTop=0;
+}
