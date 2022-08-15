@@ -21,7 +21,7 @@ $(window).on("scroll",function(){
         $(".isShowBtn").addClass("bottom-active")
     }
     else {
-        $(".isShowBtn").addClass("bottom-active2")
+        $(".isShowBtn").removeClass("bottom-active")
     }
 }) 
 $(".isShowBtn").click(function(){
