@@ -1,12 +1,21 @@
 .socialProofLogos{
+    background-image: url(https://i.gifer.com/Kb5H.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    p{
+        color: #fff;
+        padding-top: 20px;
+    }
     img{
-        width: 30%;
+        width: 40%;
         margin-left: 7em;
         margin-top: 20px;
+        margin-bottom: 20px;
         transition: .3s ease-in-out;
         border-radius: 10px;
+        color: transparent;
         &:hover{
-            box-shadow: #20484f 0 5px 5px 0;
+            transform: scale(1.1);
         }
     }
 }

@@ -21,7 +21,7 @@ header.header-active ul li a {
 }
 
 header.header-active ul li a:hover::after {
-  background: #20484F;
+  background: #fff;
 }
 
 header .logo {
@@ -42,12 +42,13 @@ header .header-middle ul li a {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
-  -webkit-transition: 0.3sm ease-in-out;
-  transition: 0.3sm ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 header .header-middle ul li a:hover {
-  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #000;
 }
 
 header .header-middle ul li a::after {
@@ -90,7 +91,7 @@ header .header-right button {
     top: 100%;
     width: 100%;
     left: -100%;
-    background: black;
+    background: aqua;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: .3s ease-in-out;
@@ -110,6 +111,7 @@ header .header-right button {
   }
   #header .header-middle ul li a {
     display: block;
+    color: #888;
   }
 }
 
@@ -228,22 +230,34 @@ header .header-right button {
   width: 100%;
 }
 
+.socialProofLogos {
+  background-image: url(https://i.gifer.com/Kb5H.gif);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.socialProofLogos p {
+  color: #fff;
+  padding-top: 20px;
+}
+
 .socialProofLogos img {
-  width: 30%;
+  width: 40%;
   margin-left: 7em;
   margin-top: 20px;
+  margin-bottom: 20px;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   border-radius: 10px;
+  color: transparent;
 }
 
 .socialProofLogos img:hover {
-  -webkit-box-shadow: #20484f 0 5px 5px 0;
-          box-shadow: #20484f 0 5px 5px 0;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .featuresBlockOne {
-  margin-top: 40px;
   background: #fafafa;
   padding-top: 40px;
 }
@@ -591,23 +605,22 @@ header .header-right button {
 .featuresBlockThree .icon:hover i {
   background: #20484f;
   color: #fff;
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .quotes {
-  background: #FAFAFA;
+  background-image: url(https://web-assets.al-enterprise.com/-/media/assets/internet/images/applications-platforms-image-pageheaderbar-web.jpg?v=1&d=00010101T000000Z);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .quotes .divider {
   width: 100%;
-  background: #fafafa;
 }
 
 .quotes .quotesBtn {
-  background: #20484F;
+  background: #20484f;
   color: #fff;
   height: 40px;
   margin-top: 20px;
@@ -618,8 +631,8 @@ header .header-right button {
   padding: 30px;
   border-radius: 10px;
   margin-bottom: 50px;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .quotes .box img {
@@ -635,8 +648,8 @@ header .header-right button {
 }
 
 .quotes .box:hover {
-  -webkit-box-shadow: #20484F 0 10px 10px 0;
-          box-shadow: #20484F 0 10px 10px 0;
+  -webkit-box-shadow: #20484f 0 10px 10px 0;
+          box-shadow: #20484f 0 10px 10px 0;
 }
 
 .CTAs {
@@ -707,6 +720,11 @@ header .header-right button {
 .aboutPhotos .img2,
 .aboutPhotos .img4 {
   margin-top: 10rem;
+}
+
+.aboutPhotos img:hover {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
 .aboutTeam {

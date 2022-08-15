@@ -39,6 +39,7 @@ $color: #20484f;
 }
 //Photos***********
 .aboutPhotos {
+ 
   margin-top: 5rem;
   .photoTxt {
     text-align: center;
@@ -46,6 +47,11 @@ $color: #20484f;
   .img2,
   .img4 {
     margin-top: 10rem;
+  }
+  img{
+    &:hover{
+      transform: scaleX(-1);
+    }
   }
 }
 //Team***********
@@ -90,5 +96,3 @@ $color: #20484f;
     color: #fff;
   }
 }
-
-
