@@ -749,6 +749,7 @@ header .header-right button {
   transition: 0.3s ease-in-out;
   margin: 5px;
   border: 2px solid #ccc;
+  color: #000;
 }
 
 .aboutTeam i:hover {
@@ -802,27 +803,122 @@ header .header-right button {
   background-color: #20484F;
 }
 
+.signUp {
+  background: #dcf2ed;
+}
+
+.signUp .signUpBox {
+  background: #fff;
+  width: 35%;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.signUp .signUpBox .signUptxt h4 {
+  text-align: center;
+  color: #20484f;
+}
+
+.signUp .signUpBox .signUpInput h6 {
+  margin-top: 25px;
+}
+
+.signUp .signUpBox .signUpInput input {
+  border-radius: 5px;
+  border: 1px solid rgba(204, 204, 204, 0.497);
+  padding: 5px 10rem 5px 7px;
+}
+
+.signUp .signUpBox .signUpInput input::-webkit-input-placeholder {
+  color: #ccc;
+  font-weight: 300;
+}
+
+.signUp .signUpBox .signUpInput input:-ms-input-placeholder {
+  color: #ccc;
+  font-weight: 300;
+}
+
+.signUp .signUpBox .signUpInput input::-ms-input-placeholder {
+  color: #ccc;
+  font-weight: 300;
+}
+
+.signUp .signUpBox .signUpInput input::placeholder {
+  color: #ccc;
+  font-weight: 300;
+}
+
+.signUp .signUpBox .service {
+  margin-top: 15px;
+}
+
+.signUp .signUpBox .createBtn button {
+  background: #20484f;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 300;
+}
+
+.signUp .signUpBox p {
+  text-align: center;
+}
+
 footer {
   background: #072125;
   color: #fff;
   padding: 40px 0;
 }
 
-footer h3 {
+footer h1 {
   margin-bottom: 20px;
-  font-size: 25px;
+}
+
+footer i {
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  margin: 5px;
+  border: 2px solid #ccc;
+  color: #fff;
+}
+
+footer i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer #facebook:hover {
+  background: #1877F2;
+}
+
+footer #twitter:hover {
+  background: #1D9BF0;
+}
+
+footer #linkedin:hover {
+  background: #0A66C2;
+}
+
+footer #instagram:hover {
+  background: #E606A0;
 }
 
 footer h4 {
-  font-size: 17   px;
+  font-size: 17 px;
 }
 
 footer h6 {
   font-size: 10px;
   color: #888;
   line-height: 3;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 
