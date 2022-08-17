@@ -31,8 +31,82 @@ header .logo {
 header .logo a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+header .logo a .l1 {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+header .logo a .l2 {
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+header .logo a .l3 {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+header .logo a .l4 {
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
+}
+
+header .logo a .l5 {
+  -webkit-transition: .7s ease-in-out;
+  transition: .7s ease-in-out;
+}
+
+header .logo a .l6 {
+  -webkit-transition: .8s ease-in-out;
+  transition: .8s ease-in-out;
+}
+
+header .logo a .l7 {
+  -webkit-transition: .9s ease-in-out;
+  transition: .9s ease-in-out;
+}
+
+header .logo a .l8 {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+header .logo a:hover .l1 {
+  color: #FDB812;
+}
+
+header .logo a:hover .l2 {
+  color: #F37020;
+}
+
+header .logo a:hover .l3 {
+  color: #CE014E;
+}
+
+header .logo a:hover .l4 {
+  color: #6460AA;
+}
+
+header .logo a:hover .l5 {
+  color: #0089D0;
+}
+
+header .logo a:hover .l6 {
+  color: #0CB14B;
+}
+
+header .logo a:hover .l7 {
+  color: #D4228F;
+}
+
+header .logo a:hover .l8 {
+  color: #181146;
 }
 
 header .header-middle ul li a {
@@ -73,6 +147,9 @@ header .header-right a button {
   margin-left: 5px;
   border: none;
   padding: 7px;
+  color: white;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .nav-menu i {
