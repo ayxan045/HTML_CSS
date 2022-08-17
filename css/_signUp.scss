@@ -6,6 +6,15 @@
     padding: 50px;
     margin: 50px;
     border-radius: 10px;
+    transition: .3s ease-in-out;
+    &:hover {
+      background: #20484f;
+      color: #fff;
+    }
+    &:hover .signUptxt h4{
+      color: #fff;
+    }
+
     .signUptxt {
       h4 {
         text-align: center;
@@ -41,6 +50,22 @@
     }
     p {
       text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1390px) {
+  .signUp {
+    .signUpBox {
+      width: 65%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .signUp {
+    .signUpBox {
+      width: 100%;
     }
   }
 }

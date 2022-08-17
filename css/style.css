@@ -890,6 +890,17 @@ header .header-right a button {
   padding: 50px;
   margin: 50px;
   border-radius: 10px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.signUp .signUpBox:hover {
+  background: #20484f;
+  color: #fff;
+}
+
+.signUp .signUpBox:hover .signUptxt h4 {
+  color: #fff;
 }
 
 .signUp .signUpBox .signUptxt h4 {
@@ -942,6 +953,18 @@ header .header-right a button {
 
 .signUp .signUpBox p {
   text-align: center;
+}
+
+@media (max-width: 1390px) {
+  .signUp .signUpBox {
+    width: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .signUp .signUpBox {
+    width: 100%;
+  }
 }
 
 footer {
